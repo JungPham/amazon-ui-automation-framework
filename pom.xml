@@ -17,6 +17,7 @@
         <cucumber.version>6.9.0</cucumber.version>
         <cucumber-testng.version>6.9.0</cucumber-testng.version>
         <twilio.version>8.17.0</twilio.version>
+        <cucumber-picocontainer.version>6.9.1</cucumber-picocontainer.version>
     </properties>
     <dependencies>
         <dependency>
@@ -55,6 +56,12 @@
             <artifactId>lombok</artifactId>
             <version>RELEASE</version>
             <scope>compile</scope>
+        </dependency>
+        <dependency>
+            <groupId>io.cucumber</groupId>
+            <artifactId>cucumber-picocontainer</artifactId>
+            <version>${cucumber-picocontainer.version}</version>
+            <scope>test</scope>
         </dependency>
     </dependencies>
 </project>

@@ -16,7 +16,12 @@ public class HomeSteps extends BaseSteps {
     //region When
     @When("User hovers on Account")
     public void userHoversOnAccount(){
+        homePage.hoverOnAccountListButton();
+    }
 
+    @When("User clicks on Start here button")
+    public void userClicksOnStartHereButton(){
+        homePage.clickOnStartHereLinkText();
     }
     //end Region
 }
